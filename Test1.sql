@@ -325,21 +325,6 @@ UNION All
 SELECT * FROM  EMPLOYEES 
 WHERE DEPARTMENT_ID=80;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 --correlated subqueries
 SELECT employee_id, last_name, job_id, department_id
 FROM employees outer
