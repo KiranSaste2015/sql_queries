@@ -1,4 +1,4 @@
---test
+
 --Q1 . Write a query to display manager name & no of employees 
 --working under him or her.
 SELECT m.first_name AS mgr_name,COUNT(e.employee_id) AS num_employees
@@ -34,7 +34,7 @@ WHERE e.employee_id IN (
     FROM JOB_HISTORY jh);
     
 --4]Write a query to display city & department name wise 
---employee’s count. In output sort data count wise.
+--employeeâ€™s count. In output sort data count wise.
 SELECT d.department_name, l.city, COUNT(e.employee_id) AS employee_count
 FROM employees e
 JOIN departments d ON e.department_id = d.department_id
